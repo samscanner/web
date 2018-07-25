@@ -1,0 +1,197 @@
+/* CSS Document */
+
+body,html{ margin:0px;
+           padding:0px;
+		   font-family:Tahoma, Geneva, sans-serif;;
+			font-size:14px;}
+a{
+	text-decoration:none;}
+
+body{ background:#e8e7e7 url(../img/top.png) repeat-x top ;}
+
+
+#container{ width:1000px;
+            margin:auto;
+			}
+
+
+#top{ padding-top:20px;
+      padding-left:80px;
+	  width:920px;
+	  height:43px;}
+	  
+	  
+#tonglan{ width:1000px;
+          height:577px;
+		  margin-top:100px;
+		  background-image:url(../img/tonglan.png);
+		  position:relative;
+		  }
+
+
+.iphone{
+	position:absolute;
+	left:5px;
+	top:7px;
+}
+
+.wenzi1{ position:absolute;
+         left:318px;
+		 top:52px }
+		 
+.gongneng{
+	position:absolute;
+	left:318px;
+	top:265px
+}
+		 
+.yaoqiu{
+	position:absolute;
+	left:660px;
+	top:265px
+}
+		 
+.gongneng1{ width:280px;
+            height:170px;
+			position:absolute;
+			top:312px;
+			left:318px;
+			line-height:24px;
+			color:#333333;}
+			
+.yaoqiu1{ width:280px;
+            height:170px;
+			position:absolute;
+			top:312px;
+			left:660px;
+			line-height:24px;
+			color:#333333;}
+
+
+.download{  width:211px;
+	        height:82spx;
+			list-style:none;
+	        margin:0;
+	        padding:0;
+            position:absolute;
+            bottom:48px;
+			right:130px;
+			background:url(../img/download.png) no-repeat;
+			}
+.download li{
+	float:left;
+	text-align:center;
+	width:211px;
+	height:82px;
+	}
+	
+.download li a{
+      display:block;
+      width:211px;
+      height:82px;
+      }
+.download li a:hover{
+	display:block;
+	background:url(../img/download2.png) no-repeat;
+	}
+	
+.download li a:active{
+	display:block;
+	background:url(../img/download3.png) no-repeat;
+	}
+
+#jianyi{ width:1000px;
+         height:570px;
+         position:relative;
+         top:40px;}			
+.wenzijianyi{ width:500px;
+            height:230px;
+			position:absolute;
+			top:30px;
+			left:5px;
+			line-height:24px;
+			color:#333333;}
+			
+.jianyi{ position:absolute;
+      top:5px;
+      left:5px;}
+
+.tu1{ position:absolute;
+      top:293px;
+      left:0px;}
+	  
+.tu2{ position:absolute;
+      top:34px;
+      right:0px;}
+	  
+#video{ width:1000px;
+height:400px;
+position:relative;
+top:100px;
+left:0px;}
+
+#video1{ width:495px;
+        height:330px;
+		padding-top:20px;
+		position:absolute;
+		top:20px;
+		left:0px;
+		}
+#video2{ width:495px;
+        height:330spx;
+		padding-top:20px;
+		position:absolute;
+		top:20px;
+		left:505px;
+		}
+
+#bottom1{ height:368px;
+width:1000px;
+position:relative;
+top:200px;
+}
+
+
+.ditu{ position:absolute;
+top:61px;
+left:0;}
+
+#bottom{ height:368px;
+         width:auto;
+		 background:#e8e7e7 url(../img/bottomBG.png) repeat-x  ;  
+       }
+
+.banquan{ position:absolute;
+top:500px;
+left:480px;
+color:#FFF;}
+.guanzhu{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	position:absolute;
+	top:205px;
+	right:5px;
+	
+	}
+.guanzhu li a{
+	color:#fff;
+	display:block;
+	width:230px;
+	line-height:48px;
+	}
+.twitter{ position:absolute;
+top:215px;
+right:250px;}
+
+.facebook{ position:absolute;
+top:263px;
+right:250px;}
+
+.email{ position:absolute;
+top:308px;
+right:250px;}
+
+.youtube{ position:absolute;
+top:356px;
+right:250px;}
